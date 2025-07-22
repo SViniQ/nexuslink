@@ -1,0 +1,52 @@
+# Arquivo de ajuda (não precisa versionar)
+HELP.md
+
+# === MAVEN ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Exceções do Maven para quando target for usado dentro do src (geralmente não ocorre, mas você colocou)
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# === Eclipse / Spring Tool Suite (STS) ===
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# === VSCode ===
+.vscode/
+
+# === Build directories ===
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === Arquivos temporários e do sistema ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === Arquivos compilados ===
+*.class
