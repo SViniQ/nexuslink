@@ -1,9 +1,9 @@
 spring:
   application:
-    name: Sense Track
+    name: Nexus Link
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/sensetrack
+    url: jdbc:postgresql://localhost:5432/nexuslink
     username: postgres
     password: 30A20b10c.
     driver-class-name: org.postgresql.Driver
@@ -19,15 +19,15 @@ spring:
         use_sql_comments: true
         type: trace
 
-  springdoc:
-    api-docs:
-      enabled: true
-    swagger-ui:
-      enabled: true
-      path: /swagger-ui.html
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
 
 server:
-  port: 8081
+  port: 8080
 
 logging:
   level:
