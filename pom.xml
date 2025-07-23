@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cesar.school.sensetrack</groupId>
-	<artifactId>yuricsg</artifactId>
+	<artifactId>sviniq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Sense Track</name>
 	<description>Demo project for Spring Boot</description>
