@@ -6,7 +6,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/nexuslink
     username: postgres
     password: 30A20b10c.
-    driver-class-name: org.postgresql.Driver
+    #driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
